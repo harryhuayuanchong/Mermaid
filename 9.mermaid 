@@ -1,0 +1,10 @@
+flowchart TD
+    A[用户进入Card聚合页面] --> B[查看推荐Card]
+    B --> C{选择内容分类}
+    C --> |热门代币| D[筛选热门代币Card]
+    C --> |最新趋势| E[查看最新趋势Card]
+    C --> |Meme热点| F[浏览Meme热点Card]
+    D --> G[与Card互动]
+    E --> G
+    F --> G
+    G --> H[一键分享或转推]
